@@ -22,6 +22,13 @@ $ git checkout master
 $ git checkout branch1
 ```
 
+### 2,ブランチを特定のブランチをベースにして作成する
+
+```bash
+$ git checkout -b branch2
+$ git fetch
+$ git rebase origin/branch1
+```
 
 
 
