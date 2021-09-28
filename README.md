@@ -1,6 +1,6 @@
 # git-training
 
-### 1,準備編
+### 0,準備編
 
 ```bash
 $ mkdir git-training
@@ -13,6 +13,15 @@ $ git add .
 $ git commit -m "ADD README"
 $ git push origin master
 ```
+
+### 1,現在参照しているブランチ名を変更する
+
+```bash
+$ git checkout -b branch1
+$ git checkout master
+$ git checkout branch1
+```
+
 
 
 
