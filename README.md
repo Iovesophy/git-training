@@ -1,6 +1,6 @@
 # git-training
 
-準備
+### 1,準備編
 
 ```bash
 $ mkdir git-training
@@ -11,6 +11,7 @@ $ git remote add origin git@github.com:Iovesophy/git-training.git
 $ touch README.md
 $ git add .
 $ git commit -m "ADD README"
+$ git push origin master
 ```
 
 
