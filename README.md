@@ -132,4 +132,8 @@ git merge --abort
 ```bash
 $ git add <filename>
 ```
+## 18, HEADの状態をインデックスに戻す
 
+```bash
+$ git reset --mixed HEAD^
+```
