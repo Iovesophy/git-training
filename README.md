@@ -22,11 +22,12 @@ $ git checkout master
 $ git checkout branch1
 ```
 
-### 2,ブランチを特定のブランチをベースにして新規作成する
+### 2,ブランチを任意のブランチをベースにして新規作成する
 
 ```bash
 $ git checkout -b <new_branch_name> <target_branch>
 ```
+
 
 
 
