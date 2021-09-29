@@ -14,5 +14,8 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 5, インデックスに記録されているファイルとリモートトラッキングブランチとの差分を見る
 
-
+```bash
+$ git diff --cached origin/<branch_name>
+```
