@@ -32,3 +32,9 @@ $ git checkout -b <new_branch_name> <target_branch>
 ```bash
 $ git checkout -f <target_branch>
 ```
+
+## 4, インデックスに記録されているファイルをインデックスから解除する
+
+```bash
+$ git restore --staged <filename>
+```
