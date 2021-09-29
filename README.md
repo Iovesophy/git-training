@@ -20,3 +20,9 @@ $ git push origin master
 $ git checkout -b <to_change_branch_name>
 $ git branch -m <new_branch_name>
 ```
+
+### 2,ブランチを任意のブランチをベースにして新規作成する
+
+```bash
+$ git checkout -b <new_branch_name> <target_branch>
+```
