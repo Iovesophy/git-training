@@ -26,3 +26,9 @@ $ git branch -m <new_branch_name>
 ```bash
 $ git checkout -b <new_branch_name> <target_branch>
 ```
+
+### 3, ブランチを強制的に変更(checkout)する
+
+```bash
+$ git checkout -f <target_branch>
+```
