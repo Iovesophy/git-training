@@ -14,5 +14,8 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 3, ブランチを強制的に変更(checkout)する
 
-
+```bash
+$ git checkout -f <target_branch>
+```
