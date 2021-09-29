@@ -38,3 +38,9 @@ $ git checkout -f <target_branch>
 ```bash
 $ git restore --staged <filename>
 ```
+
+### 5, インデックスに記録されているファイルとリモートトラッキングブランチとの差分を見る
+
+```bash
+$ git diff --cached origin/<branch_name>
+```
