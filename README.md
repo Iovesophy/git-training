@@ -14,5 +14,8 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+## 4, インデックスに記録されているファイルをインデックスから解除する
 
-
+```bash
+$ git restore --staged <filename>
+```
