@@ -121,3 +121,9 @@ $ git rebase --abort
 $ git cherry-pick --abort
 ```
 
+### 16, マージをキャンセルする
+
+```bash
+git merge --abort
+```
+
