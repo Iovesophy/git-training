@@ -14,5 +14,9 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 15, cherry-pickをキャンセルする
 
+```bash
+$ git cherry-pick --abort
+```
 
