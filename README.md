@@ -14,5 +14,18 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+## 6, プルリクエストで発生したコンフリクトを修正する
 
+rebaseで解決
+```bash
+$ git pull --rebase origin <to_merge_branch_name>
+$ git add <filename>
+$ git rebase --continue
+```
 
+pullで解決
+```bash
+$ git pull origin <to_merge_branch_name>
+$ git add <filename>
+$ git rebase --continue
+```
