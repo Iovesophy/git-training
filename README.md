@@ -14,5 +14,9 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 14, リベースをキャンセルする
 
+```bash
+$ git rebase --abort
+```
 
