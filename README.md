@@ -14,5 +14,10 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 10, 直前のコミットで変更したファイルの内容を見る
+
+```bash
+$ git show HEAD^
+```
 
 
