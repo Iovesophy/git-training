@@ -44,3 +44,19 @@ $ git restore --staged <filename>
 ```bash
 $ git diff --cached origin/<branch_name>
 ```
+
+## 6, プルリクエストで発生したコンフリクトを修正する
+
+rebaseで解決
+```bash
+$ git pull --rebase origin <to_merge_branch_name>
+$ git add <filename>
+$ git rebase --continue
+```
+
+pullで解決
+```bash
+$ git pull origin <to_merge_branch_name>
+$ git add <filename>
+$ git rebase --continue
+```
