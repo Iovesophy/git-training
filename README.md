@@ -15,7 +15,6 @@ $ git push origin master
 ```
 
 ### 1,現在参照しているブランチ名を変更する
-
 ```bash
 $ git checkout -b <to_change_branch_name>
 $ git branch -m <new_branch_name>
@@ -68,3 +67,10 @@ $ git commit
 $ git rebase -i HEAD~~
 (squashする)
 ```
+
+### 8,前にいたブランチに戻る
+
+```bash
+$ git checkout -
+```
+
