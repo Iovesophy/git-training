@@ -14,5 +14,9 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 17, 特定のファイルだけインデックスに追加する
 
+```bash
+$ git add <filename>
+```
 
