@@ -60,3 +60,11 @@ $ git pull origin <to_merge_branch_name>
 $ git add <filename>
 $ git rebase --continue
 ```
+
+## 7, インデックスに記録されている変更を直前のコミットに混ぜる
+
+```bash
+$ git commit
+$ git rebase -i HEAD~~
+(squashする)
+```
