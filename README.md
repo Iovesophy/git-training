@@ -14,5 +14,10 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 8,前にいたブランチに戻る
+
+```bash
+$ git checkout -
+```
 
 
