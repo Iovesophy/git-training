@@ -96,3 +96,10 @@ $ git clean -f
  `d`: ディレクトリも含める
  `f`: 削除する
  `n`: Dry-run
+
+### 12, ワーキングツリーの変更を元に戻す
+
+```bash
+$ git reset --hard HEAD{<head_number>}
+```
+
