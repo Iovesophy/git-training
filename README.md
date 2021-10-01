@@ -14,5 +14,9 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 12, ワーキングツリーの変更を元に戻す
 
+```bash
+$ git reset --hard HEAD^
+```
 
