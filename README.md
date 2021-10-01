@@ -80,3 +80,9 @@ $ git checkout -
 $ git blame <filename>
 ```
 
+### 10, 直前のコミットで変更したファイルの内容を見る
+
+```bash
+$ git show HEAD^
+```
+
