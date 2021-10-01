@@ -17,9 +17,8 @@ $ git push origin master
 ### 1,現在参照しているブランチ名を変更する
 
 ```bash
-$ git checkout -b branch1
-$ git checkout master
-$ git checkout branch1
+$ git checkout -b <to_change_branch_name>
+$ git branch -m <new_branch_name>
 ```
 
 
