@@ -14,5 +14,9 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 9, ファイルの行単位で最終変更がどのコミットで行われたのか確認する
 
+```bash
+$ git blame <filename>
+```
 
