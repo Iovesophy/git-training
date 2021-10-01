@@ -103,3 +103,9 @@ $ git clean -f
 $ git reset --hard HEAD{<head_number>}
 ```
 
+### 13, ワーキングツリーとインデックスの変更を元に戻す
+
+```bash
+$ git reset --mixed HEAD{<head_number>}
+```
+
