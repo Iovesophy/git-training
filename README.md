@@ -1,6 +1,6 @@
 # git-training
 
-### 1,準備編
+### 0,準備編
 
 ```bash
 $ mkdir git-training
@@ -13,6 +13,3 @@ $ git add .
 $ git commit -m "ADD README"
 $ git push origin master
 ```
-
-
-
