@@ -109,3 +109,9 @@ $ git reset --hard HEAD{<head_number>}
 $ git reset --mixed HEAD{<head_number>}
 ```
 
+### 14, リベースをキャンセルする
+
+```bash
+$ git rebase --abort
+```
+
