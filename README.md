@@ -137,3 +137,9 @@ $ git add <filename>
 ```bash
 $ git reset --mixed HEAD^
 ```
+
+### 19, HEADの状態をワーキングツリーに戻す
+
+```bash
+$ git reset --hard HEAD
+```
