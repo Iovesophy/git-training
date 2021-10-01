@@ -14,5 +14,9 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 13, ワーキングツリーとインデックスの変更を元に戻す
 
+```bash
+$ git reset --mixed HEAD{<head_number>}
+```
 
