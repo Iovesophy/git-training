@@ -14,5 +14,15 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 11, コミット対象外のファイルを削除する
+ 
+```bash
+$ git clean -f
+```
+
+- option
+ `d`: ディレクトリも含める
+ `f`: 削除する
+ `n`: Dry-run
 
 
