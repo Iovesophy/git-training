@@ -127,3 +127,9 @@ $ git cherry-pick --abort
 git merge --abort
 ```
 
+### 17, 特定のファイルだけインデックスに追加する
+
+```bash
+$ git add <filename>
+```
+
