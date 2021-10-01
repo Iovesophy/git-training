@@ -14,5 +14,9 @@ $ git commit -m "ADD README"
 $ git push origin master
 ```
 
+### 16, マージをキャンセルする
 
+```bash
+git merge --abort
+```
 
