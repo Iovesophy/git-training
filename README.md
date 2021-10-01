@@ -115,3 +115,9 @@ $ git reset --mixed HEAD{<head_number>}
 $ git rebase --abort
 ```
 
+### 15, cherry-pickをキャンセルする
+
+```bash
+$ git cherry-pick --abort
+```
+
