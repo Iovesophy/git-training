@@ -82,3 +82,21 @@
 
 19. HEADの状態をワーキングツリーに戻す
     - git reset --hard HEAD
+
+20. 特定のファイルのブロックだけインデックスに追加する
+    - git add -p <filename>
+
+21. ワーキングツリーとインデックスの更新差分をインデックスに追加する
+    - git add -u
+
+22. インデックスとHEADの差分を表示する
+    - git diff --cached
+
+23. コミットを強制的にプッシュする
+    - git push -f <repository_name> <branch_name>
+
+24. リモートブランチの更新を取り込んで特定のブランチをベースにリベースする
+    - git pull --rebase <repository_name> <branch_name>
+
+25. HEADのコミットメッセージを変更する
+    - git commit --amend -a
