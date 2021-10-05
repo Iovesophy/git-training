@@ -12,7 +12,6 @@
     - git push origin master
 
 1. 現在参照しているブランチ名を変更する
-    - git checkout -b <to_change_branch_name>
     - git branch -m <new_branch_name>
 
 2. ブランチを任意のブランチをベースにして新規作成する
@@ -64,7 +63,7 @@
     - git checkout .
 
 13. ワーキングツリーとインデックスの変更を元に戻す
-    - git reset --mixed HEAD{<head_number>}
+    - git checkout -f .
 
 14. リベースをキャンセルする
     - git rebase --abort
