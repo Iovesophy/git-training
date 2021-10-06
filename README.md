@@ -38,7 +38,7 @@
     - pullで解決
         - git pull origin <to_merge_branch_name>
         - git add <filename>
-        - git rebase --continue
+        - git merge --continue
 
 7. インデックスに記録されている変更を直前のコミットに混ぜる
     - git commit --amend
@@ -63,7 +63,7 @@
     - git checkout .
 
 13. ワーキングツリーとインデックスの変更を元に戻す
-    - git checkout -f .
+    - git checkout -f
 
 14. リベースをキャンセルする
     - git rebase --abort
@@ -74,13 +74,13 @@
 16. マージをキャンセルする
     - git merge --abort
 
-17. 特定のファイルだけインデックスに追加する
+17. 特定のファイルだけインデックスに追加する(任意のファイル名を書く)
     - git add <filename>
 
 18. HEADの状態をインデックスに戻す
     - git reset --mixed HEAD^
 
-19. HEADの状態をワーキングツリーに戻す
+19. ワーキングツリーの状態をHEADに戻す
     - git reset --hard HEAD
 
 20. 特定のファイルのブロックだけインデックスに追加する
@@ -92,11 +92,21 @@
 22. インデックスとHEADの差分を表示する
     - git diff --cached
 
-23. コミットを強制的にプッシュする
+23. 強制的にプッシュする
     - git push -f <repository_name> <branch_name>
 
 24. リモートブランチの更新を取り込んで特定のブランチをベースにリベースする
     - git pull --rebase <repository_name> <branch_name>
 
 25. HEADのコミットメッセージを変更する
-    - git commit --amend -a
+    - git commit --amend -m "<message>"
+
+    - git rebase -i HEAD{<head_number>}
+        - git commit --amend
+        - git rebase --continue
+
+26. Gitの操作履歴を閲覧
+    - git reflog
+
+27. 前のブランチに強制的にチェックアウトする
+    - git checkout - -f
