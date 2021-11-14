@@ -4,6 +4,7 @@
     - git clone git@github.com:Iovesophy/git-training.git
     - git config --local user.name `"<name>"`
     - git config --local user.email `"<email>"`
+    - git config --local color.ui true
 
 1. 現在参照しているブランチ名を変更
     - git branch -m `<new_branch_name>`
