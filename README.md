@@ -109,7 +109,7 @@
 
 29. サイズの大きなファイルをプッシュ(100MB超)
     - brew install git-lfs
-    - git lfs install
+    - git lfs install --local
     - git lfs track `"<large_file_path>"`
     - git add .gitattributes
     - git add `"<large_file_path>"`
